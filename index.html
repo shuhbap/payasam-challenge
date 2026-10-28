@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ml">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Payasam Challenge 2026</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div onclick="go('home')" style="cursor:pointer">
+    <h1>🍯 Payasam Challenge 2026</h1>
+    <small id="badge">⚪ Local</small>
+  </div>
+  <div class="row" style="flex:none">
+    <button class="b g" onclick="manualSync()">🔄 Sync</button>
+    <button class="b o" onclick="toggleTheme()">🌓</button>
+    <button class="b o" onclick="go('home')">🏠</button>
+  </div>
+</header>
+<main id="app"></main>
+<dialog id="ed"></dialog>
+<div id="pa"></div>
+<div id="toast"></div>
+<script src="store.js"></script>
+<script src="cloud.js"></script>
+<script src="ui.js"></script>
+<script src="export.js"></script>
+</body>
+</html>
